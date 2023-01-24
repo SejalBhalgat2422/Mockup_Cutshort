@@ -1,0 +1,77 @@
+ .App {
+     text-align: center;
+     background-color: white(246, 249, 246);
+     margin-top: 12%;
+     /* width: 50%; */
+ }
+ 
+ .form li {
+     display: inline;
+     border: 2px solid rgb(170, 60, 244);
+     margin: 1.5%;
+     padding: 4px;
+     border-radius: 50%;
+     text-align: center;
+ }
+ 
+ #one {
+     background-color: rgb(170, 60, 244);
+ }
+ 
+ .label {
+     display: block;
+     font-size: larger;
+     color: rgb(20, 19, 19);
+     padding: 5px;
+     text-align: left;
+     margin-left: 41.2%;
+     font-weight: bold;
+ }
+ 
+ .input {
+     font-size: larger;
+     padding: 5px;
+     margin: 2px;
+ }
+ 
+ .btn {
+     color: white;
+     background-color: rgb(170, 60, 244);
+     border: 1px solid rgb(170, 60, 244);
+     border-radius: 5px;
+     font-size: larger;
+     display: block;
+     padding: 5px;
+     padding-left: 45px;
+     padding-right: 45px;
+     margin: 10px auto;
+ }
+ 
+ .messages {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .error {
+     display: block;
+     color: rgb(247, 26, 26);
+     /* width: fit-content; */
+     height: 30px;
+     padding: 5px;
+ }
+ 
+ .success {
+     display: block;
+     background-color: lightblue;
+     color: black;
+     width: fit-content;
+     height: 10px;
+     padding: 5px;
+ }
+ 
+ .form li #one:hover,
+ #two:hover,
+ #three:hover,
+ #four:hover {
+     background-color: rgb(170, 60, 244);
+ }
